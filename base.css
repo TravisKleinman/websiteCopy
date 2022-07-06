@@ -1,0 +1,434 @@
+:root {
+  --color1: #001219;
+  --color2: #005f73;
+  --color3: #3d9397;
+  --color4: #94d28d;
+  --color5: #e9d8a6;
+  --color6: #ee9800;
+  --color7: #ca6702;
+  --color8: #bb3e03;
+  --color9: #ae2012;
+  --color10: #9b2226;
+}
+
+/* generic site styles */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   color: black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2, h3 {
+  margin: 0;
+}
+
+#MAIN {
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 20px;
+      margin-left: 151px;
+      margin-right: 151px;
+}
+#MAIN2 {
+      padding: 0;
+      margin-top: 50px;
+      margin-bottom: 60px;
+      margin-left: 151px;
+      margin-right: 151px;
+}
+
+/* nav bar styles */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.navBar a:hover {
+  text-decoration: underline;
+}
+
+.navBar {
+  font-size: 80%;
+}
+
+.h1 {
+  display: flex;
+  gap: .4rem;
+  font-size: x-large;
+  text-align: center;
+}
+
+#msLogo{
+  color: orange;
+}
+
+
+.navBar {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  padding: 0;
+  margin-left: 151px;
+  margin-right: 151px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pushLeft {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  flex-basis: auto;
+  gap: 2rem;
+  font-size: small;
+}
+
+#leftNavMarg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pushRight {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 2rem;
+  flex-basis: auto;
+  font-size: small;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/*  carousel style */
+
+
+.carousel {
+  min-height: 63vh;
+  display: flex;
+  flex-flow: row;
+  font-size: medium;
+  padding: 1rem;
+  margin-top: .5rem;
+  background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4RJ6W?ver=0809&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=130&y=345&s=2647&d=993&aim=true);
+ }
+
+.bottomNav {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  font-size: 90%;
+  order: 2;
+  flex-basis: 20%;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.bottomNav a:hover {
+  opacity: 20%;
+}
+
+#pause {
+  font-size: large;
+  margin-left: 15px;
+}
+
+#carouselWords {
+  display: flex;
+  flex-flow: row wrap;
+  order: 1;
+  flex-basis: 37%;
+  align-items: center;
+  justify-content: center;
+}
+
+.carWrapper h2 {
+  font-size: xx-large;
+}
+
+.carWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 4rem;
+}
+#numberOfPeopleButton {
+  background-color: black;
+  border: box;
+  color: white;
+  padding: 12px;
+}
+#numberOfPeopleButton:hover {
+  text-decoration: underline;
+}
+.carBtn {
+  padding-left: 40px;
+}
+
+.carBtn:hover {
+  text-decoration: underline;
+}
+
+/*  middle page nav */
+.parentNav2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav2 {
+  display: flex;
+  flex-flow: row;
+  margin-top: 75px;
+  margin-left: 285px;
+  margin-right: 290px;
+  margin-bottom: 65px;
+  gap: 75px;
+  text-align: center;
+}
+
+.nav2 p {
+  width: 120px;
+}
+.nav2 p:hover {
+  text-decoration: underline;
+}
+
+#nav2Icons {
+  display: flex;
+  justify-content: center;
+  font-size: 300%;
+}
+
+#nav2Icons:hover {
+  text-decoration: none;
+}
+
+/* sales boxes */
+
+.sales1 {
+  height: 430px;
+  width: 1600px;
+}
+
+.salesBoxes {
+  display: flex;
+}
+
+.salesBoxes a {
+  color: blue;
+}
+
+.salesBoxes a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.salesBoxes img {
+  height: 215px;
+  width: 380px;
+}
+
+.salesBoxes h3 {
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+.salesBoxes p {
+  display: flex;
+  flex-flow: column;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#box {
+  margin-right: 28px;
+}
+
+/* power your dreams div */
+
+.parentXbox {
+  display: flex;
+  align-items: center;
+  background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4FfQ0?ver=512a&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=191&y=232&s=1806&d=677&aim=true") no-repeat;
+  height: 600px;
+  width: 1600px;
+  margin-bottom: 50px;
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 950px;
+}
+
+.leftContent p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.parentXbox h2 {
+  font-size: xx-large;
+}
+
+/* sales box 2 */
+
+.sales1 h2 {
+  padding-bottom: 10px;
+}
+
+/* political box styling */
+
+.workerBox span {
+  display: none;
+}
+
+.workerBox:hover span {
+
+}
+.workerBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 600px;
+  width: 1600px;
+  margin-bottom: 50px;
+  background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE50fj8?ver=6846&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true") no-repeat;
+}
+
+
+.leftContent2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin-left: 100px;
+      margin-right: 140px;
+}
+
+.leftContent2 p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.workerBox h2{
+  font-size: xx-large;
+}
+
+#bottomNav2 {
+  display: flex;
+  flex-flow: row;
+  gap: 1rem;
+  margin-top: 570px;
+  margin-right: 725px;
+  margin-bottom: 10px;
+  font-size: 90%;
+}
+
+#bottomNav2 a:hover {
+  opacity: 20%;
+}
+
+/*  Follow Us style */
+
+.followUs {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+  align-items: center;
+  font-size: large;
+}
+
+.followUs a {
+  font-size: xx-large;
+}
+
+.followUs a:hover {
+  opacity: 75%;
+}
+
+.followUs a:last-child {
+  color: #0077b4;
+}
+.followUs a:nth-child(3) {
+  color: #1DA1F2;
+}
+.followUs a:nth-child(2) {
+  color: #4267B2;
+}
+
+
+/* footer styles */
+
+.footer {
+  background-color: #f2f2f2;
+}
+.linkBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  margin-left: 110px;
+  margin-right: 300px;
+}
+
+.botBox p {
+  font-size: medium;
+  font-weight: 600;
+  color: #666666;
+}
+
+.botBox li {
+  font-size: 70%;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
+/* Final NAV */
+
+
+.finalNav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 160px;
+  margin-top: 25px;
+  align-items: center;
+  font-size: small;
+}
+
+#rightFinal {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+  align-items: center;
+  color: #666666;
+}
+
+.finalNav a {
+  color: #666666;
+}
